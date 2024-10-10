@@ -1,0 +1,144 @@
+
+
+body {
+    background-color: #519e3f26;
+    overflow-x: hidden;
+}
+#navbarNav{
+    margin-right: 1%;
+}
+.navbar {
+    background-color: #6c8f64;
+}
+.hero-section {
+    background: url('./images/organic-cannabis-product-assortment.jpg') center/cover no-repeat;
+    color: white;
+    padding-top: 10rem !important;
+    padding-bottom: 9rem !important;
+}
+.card img {
+   
+    height: 223px;
+}
+footer {
+    /* background: url('./images/footer-_1600x200_760daafb-8f0f-4fe6-9142-5c5dba8cb897.png') center/cover no-repeat; */
+    background-color: #6c8f64;
+    color: white;
+    padding: 20px 0;
+}
+
+.offerZone {
+    position: relative; 
+    background-color: #f39c12;
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 5px;
+    animation: slideIn 5s ease-in-out, pulse 3s infinite;
+}
+
+/* Slide-in animation */
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Pulse animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+/* contact  */
+
+.hero-section h1 {
+    font-size: 3rem;
+}
+
+.contact-container {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 8px;
+}
+
+
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 15px;
+}
+
+/* product */
+
+.product-card {
+    transition: transform 0.2s;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* cart */
+
+.cart-table {
+    margin-top: 20px;
+}
+
+.cart-item img {
+    width: 100px;
+}
+
+/* checkout */
+.checkout-summary {
+    margin-top: 20px;
+}
+#spinner {
+    display: none;
+}
+
+#placeOrder-button{
+    text-align: center;
+    margin: 3%;
+}
+/* login */
+
+.login-form {
+    max-width: 502px;
+    margin: 0 auto;
+    background: #bce2b35c;
+    padding: 20px;
+    border-radius: 22px;
+}
+.login-container{
+padding: 5%;
+}
+
+
+/* about */
+.img-fluid{
+    height: 300px;
+    width: 365px;
+}

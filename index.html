@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natural Herbal Products</title>
+    <!--  CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="offerZone">
+        Buy 2 get 1 free + free Lip & and cheek Tint on Orders above 699/- |Shop Now
+    </div>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Natural Herbals</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Home">
+                            <i class="fa-solid fa-house"></i></a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./product.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Product"><i class="fa-solid fa-bars"></i></a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./cart.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./account.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Account"><i class="fa-solid fa-user"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-center text-white py-5">
+        <div class="container">
+            <h1>Embrace the Power of Nature</h1>
+            <p class="lead">Discover our range of natural herbal products for a healthier lifestyle</p>
+            <a href="./product.html" class="btn btn-success btn-lg">Explore Our Products</a>
+        </div>
+    </header>
+
+    <!-- Product Cards Section -->
+    <section id="products" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="./images/herbal-tea-1410565_640.jpg" class="card-img-top" alt="Herbal Tea">
+                        <div class="card-body">
+                            <h5 class="card-title">Herbal Tea</h5>
+                            <p class="card-text">Relax and rejuvenate with our specially blended herbal teas, made from natural ingredients.</p>
+                            <a href="#" class="btn btn-success">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="./images/essential-oils-2385087_640.jpg" class="card-img-top" alt="Essential Oils" width="300" height="400">
+                        <div class="card-body">
+                            <h5 class="card-title">Essential Oils</h5>
+                            <p class="card-text">Soothe your senses with our pure essential oils for aromatherapy and wellness.</p>
+                            <a href="#" class="btn btn-success">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="./images/spices-2454799_640.jpg" class="card-img-top" alt="Herbal Supplements">
+                        <div class="card-body">
+                            <h5 class="card-title">Herbal Supplements</h5>
+                            <p class="card-text">Boost your health with our organic herbal supplements for natural wellness.</p>
+                            <a href="#" class="btn btn-success">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2024 Natural Herbals. All rights reserved.</p>
+            <p>
+                <a href="./about.html" class="text-white mx-2">About</a> | 
+                <a href ="./contact.html" class="text-white mx-2"> Contact</a>
+            </p>
+            <p>Follow us on:
+                <a href="https://www.facebook.com/" class="text-white mx-2">Facebook</a> |
+                <a href="https://www.instagram.com/" class="text-white mx-2">Instagram</a> |
+                <a href="#" class="text-white mx-2">Twitter</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+</body>
+</html>
