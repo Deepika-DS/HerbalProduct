@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Natural Herbals</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./style.css" rel="stylesheet">
+   
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Natural Herbals</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Home">
+                            <i class="fa-solid fa-house"></i></a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./product.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Product"><i class="fa-solid fa-bars"></i></a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./cart.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./account.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Account"><i class="fa-solid fa-user"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-center text-white py-5">
+        <div class="container">
+            <h1>About Us</h1>
+            <p class="lead">Our journey towards natural wellness and a sustainable future</p>
+        </div>
+    </header>
+
+    <!-- About Us Content -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <h2>Our Story</h2>
+                    <p>Natural Herbals was founded with a simple mission: to bring the best natural herbal products to those who value health and wellness. We believe that nature holds the key to living a balanced and fulfilling life, and we have made it our goal to provide the finest herbs, teas, essential oils, and supplements to our customers.</p>
+                    <p>Our journey began many years ago with a passion for holistic living and a desire to share the powerful benefits of herbs with the world. Today, we source our ingredients from trusted organic farms and ensure every product is crafted with care and respect for nature.</p>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <img src="./images/ourProducts.webp" alt="Our Story" class="img-fluid rounded" width="400" height="100">
+                </div>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-lg-6 mb-4">
+                    <img src="./images/pexels-karolina-grabowska-6640461.jpg" alt="Nature Fields" class="img-fluid" width="400" height="100">
+
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <h2>Our Values</h2>
+                    <p>We are committed to sustainability, authenticity, and purity. Our products are carefully curated and formulated without any harmful chemicals, ensuring they are both effective and safe for your body and the planet.</p>
+                    <ul>
+                        <li><strong>Quality:</strong> We source only the highest quality herbs and botanicals, ensuring that every product we offer is pure and effective.</li>
+                        <li><strong>Sustainability:</strong> We work closely with our suppliers to ensure that our practices are environmentally friendly, helping preserve our planet's resources.</li>
+                        <li><strong>Community:</strong> We are passionate about building a community that embraces natural wellness, helping people lead healthier, happier lives.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2024 Natural Herbals. All rights reserved.</p>
+            <p>
+                <a href="./about.html" class="text-white mx-2">About</a> | 
+                <a href ="./contact.html" class="text-white mx-2"> Contact</a>
+            </p>
+            <p>Follow us on:
+                <a href="https://www.facebook.com/" class="text-white mx-2">Facebook</a> |
+                <a href="https://www.instagram.com/" class="text-white mx-2">Instagram</a> |
+                <a href="#" class="text-white mx-2">Twitter</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+</body>
+</html>

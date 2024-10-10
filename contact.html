@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Natural Herbals</title>
+    <link href="./style.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+   
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="./index.html">Natural Herbals</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./index.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Home">
+                            <i class="fa-solid fa-house"></i></a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./product.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Product"><i class="fa-solid fa-bars"></i></a>
+                    </li>
+                    
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./cart.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Cart"><i class="fa-solid fa-cart-shopping"></i></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./account.html" data-bs-toggle="tooltip" data-bs-placement="top" title="Account"><i class="fa-solid fa-user"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section text-center text-white">
+        <div class="container">
+            <h1>Get in Touch</h1>
+            <p class="lead">We value your feedback and inquiries. Reach out to us below!</p>
+        </div>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-10">
+                    <div class="row contact-container">
+                        <!-- Contact Information -->
+                        <div class="col-md-6 p-4">
+                            <h2>Contact Information</h2>
+                            <ul class="contact-info">
+                                <li><strong>Address:</strong> 123 Herbal St, Green Valley, Karur, TN</li>
+                                <li><strong>Email:</strong> <a href="mailto:info@naturalherbals.com">info@naturalherbals.com</a></li>
+                                <li><strong>Phone:</strong> <a href="tel:+1234567890">+1 (234) 567-890</a></li>
+                            </ul>
+                            <h4>Business Hours</h4>
+                            <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+                            <p>Saturday - Sunday: Closed</p>
+                            <h4>Follow Us</h4>
+                            <p>
+                                <a href="#" class="text-success mx-2">Facebook</a> |
+                                <a href="#" class="text-success mx-2">Instagram</a> |
+                                <a href="#" class="text-success mx-2">Twitter</a>
+                            </p>
+                        </div>
+
+                        <!-- Contact Form -->
+                        <div class="col-md-6 p-4">
+                            <h2>Send Us a Message</h2>
+                            <form>
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="5" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-success">Submit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="container">
+            <p>&copy; 2024 Natural Herbals. All rights reserved.</p>
+            <p>
+                <a href="./about.html" class="text-white mx-2">About</a> | 
+                <a href ="./contact.html" class="text-white mx-2"> Contact</a>
+            </p>
+            <p>Follow us on:
+                <a href="https://www.facebook.com/" class="text-white mx-2">Facebook</a> |
+                <a href="https://www.instagram.com/" class="text-white mx-2">Instagram</a> |
+                <a href="#" class="text-white mx-2">Twitter</a>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+        return new bootstrap.Tooltip(tooltipTriggerEl)
+        })
+    </script>
+</body>
+
+</html>
